@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Playfair";
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+  src:
+    url("../fonts/playbold.woff2") format("woff2"),
+    url("../fonts/playbold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+  src:
+    url("../fonts/ubuntu.woff2") format("woff2"),
+    url("../fonts/ubuntu.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+  src:
+    url("../fonts/ubuntulight.woff2") format("woff2"),
+    url("../fonts/ubuntulight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+  src:
+    url("../fonts/ubuntulightitalic.woff2") format("woff2"),
+    url("../fonts/ubuntulightitalic.woff") format("woff");
+}
