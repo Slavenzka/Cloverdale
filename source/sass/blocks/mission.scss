@@ -1,0 +1,50 @@
+.mission {
+  margin-top: 40px;
+}
+
+.mission__wrapper {
+  padding: 265px 0;
+  background-image: url("../img/mission__bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 52% 0;
+}
+
+.mission__heading {
+  margin: 0;
+  text-align: center;
+}
+
+.mission__descriptor {
+  margin: 30px auto 0 auto;
+  width: 100% * 250 / 296;
+  font-family: $font__main;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 36px;
+  color: $color__dark;
+  text-align: center;
+}
+
+@media (min-width: $width__tablet) {
+  .mission__wrapper {
+    padding: 182px 0;
+  }
+
+  .mission__descriptor {
+    margin-top: 35px;
+  }
+}
+
+@media (min-width: $width__notebook) {
+  .mission__descriptor {
+    width: 100% * 805 / 1226;
+  }
+}
+
+@media (min-width: $width__desktop) {
+  .mission__wrapper {
+    padding: 259px 0;
+  }
+}

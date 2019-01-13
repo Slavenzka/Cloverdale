@@ -1,0 +1,76 @@
+.team {
+  margin-top: 40px;
+}
+
+.team__wrapper {
+  position: relative;
+  padding: 30px 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100% * 220 / 290;
+    height: 100%;
+    background-image: url("../img/team__bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+}
+
+.team__heading {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.team__descriptor {
+  margin: 0;
+  margin-top: 20px;
+  width: 100% * 220 / 290;
+  max-width: 490px;
+}
+
+@media (min-width: $width__tablet) {
+  .team__wrapper {
+    padding: 130px 0;
+
+    &::before {
+      width: 100% * 910 / 1226;
+    }
+  }
+
+  .team__heading {
+    margin-bottom: 35px;
+  }
+
+  .team__descriptor {
+    width: 100% * 490 / 710;
+  }
+
+  .team__descriptor:not(:first-of-type) {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: $width__notebook) {
+  .team__descriptor {
+    width: 100% * 490 / 1226;
+    max-width: 650px;
+  }
+}
+
+@media (min-width: $width__desktop) {
+  .team__wrapper {
+    padding: 258px 0;
+
+    &::before {
+      width: 100% * 1195 / 1606;
+    }
+  }
+
+  .team__descriptor {
+    width: 650px;
+  }
+}
