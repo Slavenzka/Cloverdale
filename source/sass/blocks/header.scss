@@ -1,6 +1,33 @@
 .header > .container {
+  position: relative;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding-top: 20px;
+}
+
+@media (min-width: $width__tablet) {
+  .header > .container {
+    justify-content: flex-start;
+    padding-top: 30px;
+  }
+
+  .header__logo {
+    order: 1;
+  }
+
+  .header__icon {
+    width: 174px;
+    height: 30px;
+  }
+
+  .header__lang {
+    order: 3;
+  }
+
+  .header__nav {
+    order: 2;
+    margin-left: auto;
+    margin-right: 70px;
+  }
 }

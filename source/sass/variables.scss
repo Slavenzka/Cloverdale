@@ -6,5 +6,7 @@ $width__desktop: 1920px;
 $font__main: "Ubuntu", "Arial", sans-serif;
 $font__headings: "Playfair", "Arial", sans-serif;
 
-$font-color__link: rgb(122, 122, 124);
-$font-color__link--passive: rgb(35, 34, 33);
+$color__lightest: rgb(255, 255, 255);
+$color__light: rgb(122, 122, 124);
+$color__light--opacity: rgba(122, 122, 124, 0.2);
+$color__dark: rgb(35, 34, 33);

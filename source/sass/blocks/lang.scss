@@ -2,6 +2,7 @@
   display: flex;
   margin: 0;
   padding: 0;
+  padding-top: 3px;
   padding-right: 45px;
   list-style: none;
 }
@@ -16,9 +17,15 @@
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 1.05px;
-  color: $font-color__link;
+  color: $color__light;
 }
 
 .lang__link:not([href]) {
-  color: $font-color__link--passive;
+  color: $color__dark;
+}
+
+@media (min-width: $width__tablet) {
+  .lang__list {
+    padding: 0;
+  }
 }
