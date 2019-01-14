@@ -507,7 +507,7 @@ a {
 
 .mission__wrapper {
   padding: 265px 0;
-  background-image: url("../img/mission__bg.jpg");
+  background-image: url("../img/mission__bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 52% 0; }
@@ -620,6 +620,11 @@ a {
 
 .footer__icon use {
   fill: rgba(0, 0, 0, 0.2); }
+
+.footer__link:hover .footer__icon use {
+  fill: #232221;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s; }
 
 .footer__copyright {
   margin: 0;
