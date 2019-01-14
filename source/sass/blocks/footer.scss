@@ -16,6 +16,11 @@
   fill: rgba(0, 0, 0, 0.2);
 }
 
+.footer__link:hover .footer__icon use {
+  fill: $color__dark;
+  transition-duration: 0.3s;
+}
+
 .footer__copyright {
   margin: 0;
   margin-top: 10px;
